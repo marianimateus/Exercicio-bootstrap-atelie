@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav .nav-link.active {
+    color: aliceblue;
+}
+
+.nav-link {
+    text-align: center;
+    color: #fff;
+}
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #011c68;
+    color: #fff;
+    border-bottom: 10px solid rgb(99, 99, 99);
+    z-index: 3;
+    padding: 8px;
+}
+
+body {
+    background-color: rgb(252, 228, 198);
+}
+
+footer {
+    padding: 24px;
+    border-bottom: 48px solid #011c68;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 48px 0px 24px 0;
+}
+
+#botao-abas {
+    color: rgb(0, 0, 0);
+}
+
+#cartao img {
+    width: 340;
+    height: 380px;
+}

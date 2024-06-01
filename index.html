@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="./Lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Título do site</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#quadros">Quadros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#principal">Best sellers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#contatos">Contatos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <!-- Seção de quadros -->
+            <div id="quadros">
+                <h2>Quadros</h2>
+                <div class="container">
+                    <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div data-bs-interval="4000" class="carousel-item active">
+                                <img class="d-flex mx-auto p-2 w-50" src="./imgs/img1.jpg" alt="">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div data-bs-interval="4000" class="carousel-item">
+                                <img class="d-flex mx-auto p-2 w-50" src="./imgs/img2.jpg" alt="">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div data-bs-interval="4000" class="carousel-item">
+                                <img class="d-flex mx-auto p-2 w-50" src="./imgs/img3.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <h2></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-indicators">
+                            <button class="active" type="button" data-bs-target="#carousel-exemplo"
+                                data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Seção principal -->
+            <div id="principal">
+                <h2>Best sellers</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <div id="cartao" class="card text-bg-dark">
+                                <div class="card-header">
+                                    <h1>Quadro 1</h1>
+                                </div>
+                                <img
+                                    src="https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, cupiditate
+                                        obcaecati.
+                                        Quis
+                                        esse, reiciendis praesentium aliquam accusamus
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div id="cartao" class="card text-bg-dark">
+                                <div class="card-header">
+                                    <h1>Quadro 2</h1>
+                                </div>
+                                <img
+                                    src="https://images.unsplash.com/photo-1599894019794-50339c9ad89c?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, cupiditate
+                                        obcaecati.
+                                        Quis
+                                        esse, reiciendis praesentium aliquam accusamus
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div id="cartao" class="card text-bg-dark">
+                                <div class="card-header">
+                                    <h1>Quadro 3</h1>
+                                </div>
+                                <img
+                                    src="https://images.unsplash.com/photo-1578301978162-7aae4d755744?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, cupiditate
+                                        obcaecati.
+                                        Quis
+                                        esse, reiciendis praesentium aliquam accusamus
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div id="cartao" class="card text-bg-dark">
+                                <div class="card-header">
+                                    <h1>Quadro 4</h1>
+                                </div>
+                                <img
+                                    src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=1945&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, cupiditate
+                                        obcaecati.
+                                        Quis
+                                        esse, reiciendis praesentium aliquam accusamus
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contatos -->
+            <footer>
+                <div id="contatos">
+                    <h2>Contatos</h2>
+                    <div class="container">
+                        <h4>Entre em contato:</h4>
+                        <form>
+                            <label class="form-label" for="nome">Seu nome:</label>
+                            <input class="form-control" type="text" id="nome">
+                            <label class="form-label " for="email">Seu e-mail:</label>
+                            <input class="form-control" type="email" id="email">
+                            <label class="form-label" for="mensagem">Sua mensagem:</label>
+                            <textarea id="mensagem" class="form-control"></textarea>
+                            <div class="form-check form-switch">
+                                <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do
+                                    site</label>
+                                <input class="form-check-input" type="checkbox" id="aceito-termos">
+                            </div>
+                            <button class="btn btn-success">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </footer>
+            
+
+</body>
+<script src="./Lib/bootstrap.bundle.min.js"></script>
+
+</html>
