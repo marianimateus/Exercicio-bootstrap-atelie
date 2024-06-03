@@ -1,0 +1,1 @@
+Exercicio para testar fundamentos bootstrap e responsividade com o mesmo 
